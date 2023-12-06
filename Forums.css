@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: url('Images/tb_background.jpg');
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*--------------------------------Header-------------------------------*/
+header{
+    width: 100%;
+    height: 60px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #FEC00F;
+    overflow: hidden;
+}
+
+.menu{
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.dropdown{
+    min-width: 130px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    top: 40px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 25px -12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s ease-in-out;
+}
+
+li:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+    top: 60px;
+}
+
+.dropdown a{
+    font-size: 14px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+}
+
+/*--------------------------------Forums-------------------------------*/
+.container{
+  margin: 20px;
+  padding: 20px;
+}
+
+.subforum{
+  margin-top:20px;
+}
+
+.subforum-title{
+  background-color:#ffc815;
+  padding: 5px;
+  border-radius: 5px;
+  margin:4px;
+}
+
+.subforum-row{
+  display: grid;
+  grid-template-columns: 7% 60% 13% 20%;
+}
+
+.subforum-column{
+  padding: 10px;
+  margin:4px;
+  border-radius: 5px;
+  background: rgba(88,88,88,0.5);
+}
+
+.subforum-description *{
+  margin-block: 0;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subforum-icon i{
+  font-size: 45px;
+}
+
+.subforum-devider{
+  display: none;   
+}
+
+
+/*--------------------------------Footer-------------------------------*/
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
