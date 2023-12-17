@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Poppins:wght@100&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color */
+}
+
+/* Override table styles */
+table {
+    align-content: center;
+    background: #ffffff;
+    border-collapse: collapse;
+    border-radius: 20px 0 20px 0;
+    border-spacing: 0;
+    box-shadow: 0 2px 12px rgba(32, 32, 32, 0.3);
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 370px;
+    overflow: hidden;
+    position: static;
+    text-align: center;
+    width: 60%;
+    height: 10%;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #F8D14B; /* Table header background color */
+    font-weight: bold;
+}
+
+table td a {
+    background-color: #F8D14B;
+    border: 1px solid #F8D14B;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px; /* Adjusted padding */
+}
+
+h2{
+    text-align: center;
+}

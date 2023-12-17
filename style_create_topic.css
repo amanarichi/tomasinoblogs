@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Poppins:wght@100&display=swap');
+
+/*--------------------------------Header-------------------------------*/
+header{
+    width: 100%;
+    height: 60px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border: 1px solid goldenrod;
+    border-radius: 0;
+    background-color: #F8D14B;
+    overflow: hidden;
+}
+
+.menu{
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+header li:first-child{
+    margin-right: auto;
+}
+
+.home{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #f1ba02;
+    margin-right: -30px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.forums{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #f1ba02;
+    margin-right: -30px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.blogs{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #f1ba02;
+    margin-right: -30px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.aboutus{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #f1ba02;
+    margin-right: -30px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.logout a{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: red;
+    margin-right: -30px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+
+.logo_Home{
+    display: block;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-top: 50px;
+    width: 500px;
+    
+}
+
+.dropdown{
+    min-width: 130px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    top: 40px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 25px -12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s ease-in-out;
+}
+
+li:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+    top: 60px;
+}
+
+.dropdown a{
+    font-size: 14px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*--------------------------------create_topic.php-------------------------------*/
+table {
+    background: #ffffff;
+    border-collapse: collapse;
+    border-top-left-radius: 20px; /* Top left corner */
+    border-top-right-radius: 20px; /* Top right corner */
+    border-bottom-right-radius: 20px; /* Bottom right corner */
+    border-bottom-left-radius: 20px; /* Bottom left corner */
+    border-spacing: 0;
+    box-shadow: 0 2px 12px rgba(32, 32, 32, 0.3);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto; /* Center the table horizontally */
+}
+
+
+
+table th {
+    background-color: #F8D14B;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+table tr td {
+    padding: 20px;
+}
+
+input[type="text"],
+select {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    background-color: #F8D14B;
+    border: 1px solid #F8D14B;
+    border-radius: 20px;
+    font-size: medium;
+    overflow: hidden;
+    padding: 15px;
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+ /*--------------------------------Footer-------------------------------*/
+ footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: absolute; /* Set the position to absolute */
+    bottom: 0; /* Align the footer to the bottom */
+    left: 0; /* Align the footer to the left */
+ }

@@ -1,0 +1,35 @@
+table {
+    background: #ffffff;
+    border-collapse: collapse;
+    border-radius: 20px 0 20px 0;
+    border-spacing: 0;
+    box-shadow: 0 2px 12px rgba(32, 32, 32, 0.3);
+    margin-top: 200px;
+    margin-left: 400px;
+    overflow: hidden;
+    margin-bottom: 200px;
+    text-align: center;
+    width: 60%;
+}
+
+th{
+  background: #F8D14B;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+tr{
+  color: #F8D14B;
+}
+
+td{
+  color: green;
+}
+
+h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

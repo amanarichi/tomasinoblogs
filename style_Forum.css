@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: url('Images/tb_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the background image covers the entire body */
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: "Montserrat", sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/*--------------------------------Forums.php-------------------------------*/
+button{
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 750px;
+  margin-right: -730px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+}
+
+
+.item{
+    color: #F8D14B;
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+}
+
+table {
+    background: #ffffff;
+    border-collapse: collapse;
+    border-radius: 20px 0 20px 0;
+    border-spacing: 0;
+    box-shadow: 0 2px 12px rgba(32, 32, 32, 0.3);
+    margin-top: 100px;
+    margin-left: 402px;
+    overflow: hidden;
+    position: static;
+    text-align: center;
+    width: 60%;
+    height: 10%;
+}
+
+th{
+  background: #F8D14B;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+tr{
+  color: #F8D14B;
+}
+
+td{
+  color: green;
+}
+
+
+
+/*--------------------------------Footer-------------------------------*/
+.table-container {
+  margin-bottom: 50px; 
+}
+
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+footer {
+  margin-top: 0;
+}

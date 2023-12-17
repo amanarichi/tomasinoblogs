@@ -1,0 +1,51 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+table {
+    background: #ffffff;
+    border-collapse: collapse;
+    border-radius: 20px 0 20px 0;
+    border-spacing: 0;
+    box-shadow: 0 2px 12px rgba(32, 32, 32, 0.3);
+    margin-top: 100px;
+    margin-left: 350px;
+    overflow: hidden;
+    position: static;
+    text-align: center;
+    width: 60%;
+    height: 10%;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #F8D14B; 
+    font-weight: bold;
+}
+
+table img {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+td a {
+    background-color: #F8D14B;
+    border: 1px solid #F8D14B;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px; 
+}

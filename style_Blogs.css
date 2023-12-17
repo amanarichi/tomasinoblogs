@@ -1,0 +1,110 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+/* Body */
+body {
+    background-attachment: fixed;
+    background-image: url('Images/tb_background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Form Styles */
+.form-container {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 2px 12px rgba(32, 32, 32, 0.3);
+    padding: 20px;
+    max-width: 600px;
+    margin: 200px auto; /* Center the form horizontally */
+}
+
+.form-container fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.form-container legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container button[type="submit"] {
+    background-color: #F8D14B;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-container button[type="button"] {
+    background-color: #F8D14B;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 335px;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #FFCD57;
+}
+
+/* Navigation Link */
+.nav-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #F8D14B;
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

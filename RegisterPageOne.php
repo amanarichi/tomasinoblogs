@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "style_RegisterPage.css">
+    <link rel = "stylesheet" href = "style_RegisterPage1.css">
     <link rel = "icon" type = "TB-Icon" href = "Images/tb_icon.png">
     <title> Registration Page </title>
 </head>
 <body>
+
     <header>
         <ul class="menu">
-            <li><a href="RegisterPageOne.php"> Register </a></li>
-            <li><a href="LoginPage.php"> Log-in </a></li>
+            <li><img src = "Images/tb_icon.png" class = "tb_icon"></li>
+            <li><a href="RegisterPageOne.php" class = "register"> Register </a></li>
+            <li><a href="LoginPage.php" class = "log-in"> Log-in </a></li>
         </ul>
     </header>
 
-     
     <img src = "Images/tb_logo.png" alt = "TomasinoBlogs Logo" class = "logo_RegisterPageOne">
     
-
     <div class = "container">
         <form action = "RegisterPageTwo.php" method = "post">
                 
@@ -53,8 +53,8 @@
                 </div>
 
                 <div class = "form-group1">
-                    <p>Sign Up?</p>
                     <button type = "submit"> Sign Up </button>
+                    <p> Have an account already? <a href = "LoginPage.php"> Login Here! </a></p>
                 </div>
     </form>
 </body>

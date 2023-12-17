@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: url('Images/tb_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    display: flex;
+    margin: 100px auto; /* Adjust margin as needed */
+    max-width: 900px; /* Adjust the maximum width */
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32, 32, 32, 0.3);
+}
+
+.background-img {
+    width: 40%; /* Adjust the width of the image */
+    height: auto;
+    object-fit: cover;
+}
+
+.description {
+    width: 60%; /* Adjust the width of the text content */
+    padding: 20px; /* Add padding as needed */
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+p{
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }

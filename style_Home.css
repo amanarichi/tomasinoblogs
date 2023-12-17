@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Poppins:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,26 +15,25 @@ ul {
     list-style: none;
 }
 
-body {
-    background: url('Images/tb_background.jpg');
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    font-family: 'Poppins', sans-serif;
-    margin-right: auto;
-    margin-left: auto;
+body{
+    background-attachment: fixed;
+    background-image: url('Images/tb_background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
 }
 
 /*--------------------------------Header-------------------------------*/
-
 header{
     width: 100%;
     height: 60px;
     padding: 0 40px;
     box-sizing: border-box;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    background-color: #FEC00F;
+    border: 1px solid goldenrod;
+    border-radius: 0;
+    background-color: #F8D14B;
+    overflow: hidden;
 }
 
 .menu{
@@ -40,7 +41,7 @@ header{
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 50px;
 }
 
@@ -50,6 +51,105 @@ li{
     height: 100%;
     list-style: none;
     position: relative;
+}
+
+header li:first-child{
+    margin-right: auto;
+}
+
+.home{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #f1ba02;
+    margin-right: -30px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.forums{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #f1ba02;
+    margin-right: -30px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.blogs{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #f1ba02;
+    margin-right: -30px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.aboutus{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #f1ba02;
+    margin-right: -30px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.logout a{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: red;
+    margin-right: -30px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.login{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #f1ba02;
+    margin-right: -30px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.login:hover{
+    background-color: #b48a00;
+    border: 1px solid #b48a00;
+    color: white;
+}
+
+.logo_Home{
+    display: block;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-top: 50px;
+    width: 500px;
+    
 }
 
 .dropdown{
@@ -81,6 +181,18 @@ li:hover .dropdown{
     padding-bottom: 10px;
 }
 
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
 /*--------------------------------Blogs-------------------------------*/
 
 #blog {
@@ -97,6 +209,12 @@ li:hover .dropdown{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.blog-heading a {
+    font-size: 4.0rem;
+    color: #2b2b2b;
+    font-weight: 600;
 }
 
 .blog-heading span {
@@ -119,6 +237,14 @@ li:hover .dropdown{
 }
 
 .blog-box {
+    width: 600px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.video {
     width: 600px;
     background-color: #ffffff;
     border: 1px solid #ececec;
@@ -249,6 +375,26 @@ li:hover .dropdown{
     }
 }
 
+.ust-spot{
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.vid-box {
+    width: 1000px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow */
+}
+
+.vid-box:hover {
+    transform: scale(1.05);
+}
+
+
 /*--------------------------------Main Building-------------------------------*/
 
 .blog-container {
@@ -301,11 +447,107 @@ li:hover .dropdown{
     }
 }
 
-/*--------------------------------Footer-------------------------------*/
+.blog-text a{
+    font-size: medium;
+}
 
-footer {
+.blog-box,
+.blog-box2,
+.blog-box3,
+.blog-box4,
+.blog-box5,
+.blog-box6 {
+    width: 600px; 
+}
+
+.blogs-img img {
+    max-width: 600px; 
+    height: auto; 
+}
+
+.blogs-img2 img {
+    max-width: 600px; 
+    height: auto; 
+}
+
+.blogs-img3 img {
+    max-width: 600px; 
+    height: auto; 
+}
+
+.blogs-img4 img {
+    max-width: 600px; 
+    height: auto; 
+}
+ 
+.blogs-img5 img {
+    max-width: 600px; 
+    height: auto; 
+}
+
+.blogs-img6 img {
+    max-width: 600px; 
+    height: auto; 
+} 
+
+
+
+/*--------------------------------Forums.php-------------------------------*/
+button{
+    background-color: #F8D14B;
+    border: 2px solid #F8D14B;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 750px;
+    margin-right: -730px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+  }
+  
+  .item{
+      color: black;
+      font-family: "Montserrat", sans-serif;
+      font-size: large;
+  }
+  
+  table {
+      background: #ffffff;
+      border-collapse: collapse;
+      border-radius: 20px 0 20px 0;
+      border-spacing: 0;
+      box-shadow: 0 2px 12px rgba(32, 32, 32, 0.3);
+      margin-left: 467px;
+      overflow: hidden;
+      margin-bottom: 200px;
+      text-align: center;
+      width: 60%;
+  }
+  
+  th{
+    background: #F8D14B;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  tr{
+    color: #F8D14B;
+  }
+  
+  td{
+    color: green;
+  }
+  /*--------------------------------Footer-------------------------------*/
+  footer {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
+    bottom: 0;
+    width: 100%;
   }

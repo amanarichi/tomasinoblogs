@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "style_RegisterPageTwo.css">
+    <link rel = "stylesheet" href = "style_RegisterPage1.css">
     <link rel = "icon" type = "tb-icon" href = "Images/tb_icon.png">
     <title> Registered Successfully! </title>
 </head>
 <body>
+    
     <header>
         <ul class="menu">
-            <li><a href="RegisterPageOne.php"> Register </a></li>
-            <li><a href="LoginPage.php"> Log-in </a></li>
+            <li><img src = "Images/tb_icon.png" class = "tb_icon"></li>
+            <li><a href="RegisterPageOne.php" class = "register"> Register </a></li>
+            <li><a href="LoginPage.php" class = "log-in"> Log-in </a></li>
         </ul>
     </header>
 
-    <div class = "tb-logo">
-        <img src = "Images/tb_logo.png" alt = "TomasinoBlogs Logo" class = "logo">
-    </div>
-
+    <img src = "Images/tb_logo.png" alt = "TomasinoBlogs Logo" class = "logo_RegisterPageTwo">
+    
     <div class = "container">
-        <h1 class = "account"> Congratulations! </h1>
+        <h1> Congratulations! </h1>
     
         <?php
         //Connection String
@@ -85,31 +85,27 @@
    
         echo "<br>";
         echo "<b><label><center> Your Account has been Created!</center></label></b>";
-        echo "<br>";
 
         echo "<br>";
         echo "<b><label><center> Username </center></label></b>";
         echo "<span><center> $Username </center></span>";
-        echo "<br>";
 
         echo "<br>";
         echo "<b><label><center> Email </center></label></b>";
-        echo "<span><center> $Email </center></span>";
-        echo "<br>";
+        echo "<span><center> $Email </center></span>";    
 
         echo "<br>";
         echo "<b><label><center> Password </center></label></b>";
         echo "<span><center> $Pass </center></span>";
-        echo "<br>";
-
+    
         echo "<br>";
         echo "<b><label><center> Birthdate </center></label></b>";
         echo "<span><center> $Birthdate </center></span>";
-        echo "<br>";
 
         echo "<br>";
         echo "<b><label><center> Gender </center></label></b>";
         echo "<span><center> $Gender </center></span>";
+        echo "<br>";
         ?>
 </div>
         
